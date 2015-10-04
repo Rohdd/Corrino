@@ -1,15 +1,5 @@
-/*- Using jQuery in WordPress --------- */
-
-/*jQuery(function($){
-      //code here
-})*/
-
-/* Initialize */
 (function($) {
   window.onload = function() {
-
-  
-
     /*- Slick Settings ----------------------*/
     $('.responsive').slick({
       dots: true,
