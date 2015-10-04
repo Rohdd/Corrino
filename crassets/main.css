@@ -1,0 +1,87 @@
+@import 'Hack-Regular.ttf';
+
+body {
+	font-family: Hack, monospace;
+}
+ul{
+	list-style-type: none;
+}
+
+a, div{
+	border-style: none;
+	outline:none;
+}
+
+.row{
+	margin-left:0;
+	margin-right:0;
+}
+.well{
+	background-color: #A0B7DA;
+}
+.features .glyphicon{
+	font-size: 32px;
+	color:red;
+}
+.fixed{
+	float:right;
+	position:fixed;
+}
+.footer{
+	margin-bottom:0px;
+}
+
+.imgfit {
+	margin-left:auto;
+	margin-right:auto;
+	border-style:none;
+	width:600px;
+	height:auto;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:#aaa;
+	color:#fff;
+}
+
+li.nav-tabs{
+	border-bottom: 1px solid #aaa;
+}
+
+li.nav-tabs:hover{
+	background-color:#eee;
+}
+
+/* Carousel */
+.slick-prev:before, .slick-next:before{
+	color:black;
+}
+.slick-next{
+	right:-20px;
+}
+.slick-prev{
+	left:-20px;
+}
+
+#left {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+}
+#side {
+    background: #A0B7DA;
+    width: 150px;
+    color: #fff;
+}
+
+@media screen and (max-width: 770px) {
+	.imgfit {
+		width:400px;
+	}
+}
+
+@media screen and (max-width: 502px) {
+	.imgfit {
+		width:200px;
+	}
+}
